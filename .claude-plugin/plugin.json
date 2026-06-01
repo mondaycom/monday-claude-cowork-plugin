@@ -1,0 +1,25 @@
+{
+  "name": "monday-com",
+  "version": "0.1.0",
+  "description": "The official monday.com plugin for Claude Cowork. Manage boards, items, docs, and forms across work management, CRM, dev, service, and campaigns. Full read and write access via OAuth.",
+  "author": {
+    "name": "monday.com",
+    "url": "https://monday.com"
+  },
+  "homepage": "https://monday.com",
+  "repository": "https://github.com/mondaycom/monday-claude-cowork-plugin",
+  "license": "MIT",
+  "keywords": [
+    "monday",
+    "monday.com",
+    "ai-work-platform",
+    "ai-platform",
+    "work-management",
+    "project-management",
+    "crm",
+    "task-management",
+    "boards",
+    "docs",
+    "forms"
+  ]
+}
