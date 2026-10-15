@@ -45,6 +45,10 @@ Connect via OAuth - no tokens or environment variables needed.
 3. Sign in to monday.com when prompted and approve the access scope.
 4. Skills work across any board, workspace, or doc you have access to.
 
+### Neotask
+
+Install the plugin with `neotask construct install monday-com`, then connect your monday.com account in Neotask.
+
 ## Plan tiers
 
 The plugin works on every monday.com plan. Some features vary by tier:
