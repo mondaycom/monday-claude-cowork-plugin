@@ -1,9 +1,12 @@
 # monday.com for Claude Cowork
 
+![monday.com](./assets/icon.png)
+
 The official monday.com plugin for Claude Cowork. Manage your monday.com work directly from Cowork conversations - boards, items, docs, and forms - across work management, CRM, dev, service, and campaigns.
 
 **What you can do:**
 
+- Get started on monday.com with a board tailored to your work, starter items, and an automation
 - Create, update, assign, and comment on items across any board, with the right column formatting handled automatically
 - Generate project status reports that surface overdue items, blockers, and workload distribution
 - Set up new boards with the right column types, groups, and templates for your use case
@@ -18,6 +21,7 @@ Install the plugin, connect your monday.com account, then just tell Cowork what 
 
 **Example prompts:**
 
+- *"Get me started with monday.com"*
 - *"What's overdue on my sprint board - show a status breakdown and flag any blockers"*
 - *"Create a project tracker for Q3 with groups for Backlog, In Progress, Review, and Done"*
 - *"Add a high-priority bug to the tracker, assign it to me, and move it to In Progress"*
@@ -26,15 +30,16 @@ Install the plugin, connect your monday.com account, then just tell Cowork what 
 
 ## Skills
 
-Five skills ship with this plugin. They auto-activate based on what you ask.
+Six skills ship with this plugin. They auto-activate based on what you ask.
 
 | Skill | What it does |
 |---|---|
-| `task-management` | Create, update, assign, and comment on items across any board |
+| `task-management` | Create, update, assign, and comment on items across any board, with correct column-value formatting |
 | `project-status-report` | Generate status reports: overdue items, blockers, workload, recent activity |
-| `board-setup` | Create boards with the right column types, groups, and templates |
-| `docs-collaborator` | Read, draft, and update monday docs with live embeds and mentions |
-| `forms-builder` | Build WorkForms for intake workflows linked to a target board |
+| `board-setup` | Create and configure boards with the right groups, column types, and templates |
+| `onboard-to-monday` | First-run onboarding: a board tailored to your work, with starter items, an automation, and an interactive table |
+| `docs-collaborator` | Read, draft, and update monday docs with live board embeds and user mentions |
+| `forms-builder` | Build WorkForms for intake workflows that capture responses as items on a backing board |
 
 ## Setup
 
@@ -54,6 +59,7 @@ The plugin works on every monday.com plan. Some features vary by tier:
 | task-management | Full | Full | Full |
 | project-status-report | Single board | Multi-board | Multi-board |
 | board-setup | Standard columns | Standard columns | + formula columns |
+| onboard-to-monday | Board and starter items | + starter automation | + starter automation |
 | docs-collaborator | 3 docs cap | Unlimited | Unlimited |
 | forms-builder | Full (with branding) | Limited customization | + branding removal |
 
