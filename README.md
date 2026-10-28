@@ -13,7 +13,7 @@ The official monday.com plugin for Claude Cowork. Manage your monday.com work di
 - Read, draft, and update monday docs with live board embeds and user mentions
 - Build WorkForms for intake workflows linked directly to a target board
 
-Connection is OAuth-based - no API tokens or manual configuration.
+Connection is OAuth-based. Sign in when Claude asks.
 
 ## How to use
 
@@ -43,7 +43,7 @@ Six skills ship with this plugin. They auto-activate based on what you ask.
 
 ## Setup
 
-Connect via OAuth - no tokens or environment variables needed.
+Connect via OAuth. Sign in to monday.com when Claude prompts you.
 
 1. Install the plugin in Cowork.
 2. Trigger any monday.com skill (e.g. "show me a status report for my project board").
@@ -67,10 +67,11 @@ The plugin will warn you when a request hits a plan-tier ceiling and suggest alt
 
 ## Privacy and security
 
-- All access is via OAuth 2.0. The plugin never sees or stores your monday.com credentials.
+- Sign-in is OAuth 2.0 through the monday.com connector.
 - The plugin connects only to `https://mcp.monday.com/mcp` (HTTPS, TLS 1.2+).
 - Permissions are enforced at the MCP layer based on your monday.com role.
-- No data leaves the monday.com ↔ Claude path you have already authorized.
+- Data stays on the monday.com connection you approved at sign-in.
+- [Privacy](https://monday.com/privacy)
 
 ## License
 
