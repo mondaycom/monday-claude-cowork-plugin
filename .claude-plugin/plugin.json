@@ -1,7 +1,9 @@
 {
   "name": "monday-com",
-  "version": "0.1.0",
+  "displayName": "monday.com",
+  "version": "0.2.0",
   "description": "The official monday.com plugin for Claude Cowork. Manage boards, items, docs, and forms across work management, CRM, dev, service, and campaigns. Full read and write access via OAuth.",
+  "icon": "./assets/icon.png",
   "author": {
     "name": "monday.com",
     "url": "https://monday.com"
